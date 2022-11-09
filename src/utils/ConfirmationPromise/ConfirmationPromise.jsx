@@ -43,9 +43,7 @@ const showConfirmation = async (message) => {
       resolve(response);
     };
 
-    ReactDOM
-      .createRoot(container)
-      .render(<ConfirmationModal message={message} onResponse={onResponse} />);
+    root.render(<ConfirmationModal message={message} onResponse={onResponse} />);
   });
 };
 
