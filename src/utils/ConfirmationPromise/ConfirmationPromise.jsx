@@ -8,7 +8,7 @@ const ConfirmationModal = ({ message, onResponse }) => {
 
   const onCancel = () => {
     onResponse(false);
-  }
+  };
 
   return (
     <div className="confirmation-modal">
