@@ -47,6 +47,6 @@ const showConfirmation = async (message) => {
       .createRoot(container)
       .render(<ConfirmationModal message={message} onResponse={onResponse} />);
   });
-}
+};
 
 export default showConfirmation;
