@@ -1,0 +1,13 @@
+button {
+  background-color: cadetblue;
+  color: white;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  cursor: pointer;
+  min-width: 75px;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
